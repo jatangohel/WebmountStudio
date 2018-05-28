@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<title>Web Mount Studio - Web Solutions</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Core Meta Data -->
+	<meta name="author" content="Jatan Gohel">
+	<meta name="description" content="Digital Agency in India and Canada.">
+	<meta name="keywords" content="web,graphics,website,mobile,agency,developer,graphics,UI,UX,html5,css3,jquery">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+	<!-- Apple Touch Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/loader.css"/>
+	<link rel="stylesheet" type="text/css" href="css/framework.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style2.css"/>
+
+
+
+	<!-- Colors -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/cyan.css" title="cyan" media="screen"> -->
+	<link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen">
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/pink.css" title="pink" media="screen"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow" media="screen"> -->
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css" />
+	<![endif]-->
+
+	<!-- Javascript -->
+	<script src="js/jquery.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+
+	<script src="js/modernizr.js"></script>
+
+
+
+	<script src="js/jquery.backstretch.min.js"></script>
+
+<script src="js/custom.js"></script>
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+
+
+<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand"><img src="images/head_logo.png" alt="Home"></a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#hero" class="smoothScroll">HOME</a></li>
+				
+				<li><a href="#intro" class="smoothScroll">ABOUT</a></li>
+				<li><a href="#team" class="smoothScroll">TEAM</a></li>
+				<li><a href="#work" class="smoothScroll">WORK</a></li>
+				
+				<li><a href="#connect" class="smoothScroll">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+
+
+
+	
+	<section id="hero">
+		<ul id="scene" class="scene"
+			data-friction-x="0.1"
+			data-friction-y="0.1"
+			data-scalar-x="25"
+			data-scalar-y="15"
+			>
+			<li class="layer" data-depth="0.00"></li>
+
+			<!-- BG -->
+			<li class="layer" data-depth="0.10" ><div class="background" data-0="transform: translate3d(0px, 0px, 0px);" data-top-bottom="transform: translate3d(0px, 300%, 0px);"></div></li>
+			<li class="layer" data-depth="0.15"><div class="triangles"></div></li>
+			<li class="layer" data-depth="0.25"><div class="sphere" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/sphere.png" alt="sphere"></div></li>
+			
+			<!-- Hero 
+			<li class="layer" data-depth="0.20"><div class="title" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img class="has-retina" src="images/logo.png" alt="Opia"></div></li> -->
+			
+
+			<!-- Flakes -->
+			<li class="layer" data-depth="0.40">
+				<div class="depth-1 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes1.png" alt="flake"></div>
+				<div class="depth-1 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes2.png" alt="flake"></div>
+				<div class="depth-1 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes3.png" alt="flake"></div>
+				<div class="depth-1 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes4.png" alt="flake"></div>
+			</li>
+			<li class="layer" data-depth="0.50">
+				<div class="depth-2 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth2/flakes1.png" alt="flake"></div>
+				<div class="depth-2 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth2/flakes2.png" alt="flake"></div>
+			</li>
+			<li class="layer" data-depth="0.60">
+				<div class="depth-3 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes1.png" alt="flake"></div>
+				<div class="depth-3 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes2.png" alt="flake"></div>
+				<div class="depth-3 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes3.png" alt="flake"></div>
+				<div class="depth-3 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes4.png" alt="flake"></div>
+			</li>
+			<li class="layer" data-depth="0.80"><div class="depth-4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth4/flakes.png" alt="flake"></div></li>
+			
+		</ul>
+		<a id="action" href="#intro"></a>
+	</section>
+
+	<section id="intro" class="container center padded">
+
+		<!-- About -->
+		<div class="row">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+				<h3>About Us</h3>
+				<span class="line"></span>
+				<h2>Ten years of experience building the web.</h2>
+				<p><b>Web Mount Studio</b> specializes in Web, Graphics and Marketing. We work hard to build customized solutions that help you envision the future of your company in the present.</p>
+				<p>From design and development to digital marketing,<br>Our goal is to build solutions that fits your need.</p>
+			</div>
+		</div>
+
+	
+
+	<section class="container padded-bottom center-mobile relative list">
+
+		<!-- Blocks -->
+		<div class="row">
+
+			<div class="block col-xs-12 col-sm-4">
+				<img src="images/icons/web_app.png">
+				<h3>Branding &amp; Graphics</h3>
+				<p>We ensure your product is a part of your brand’s integrated entity and presented with a required degree of integrity.</p>
+			</div>
+
+			<div class="block col-xs-12 col-sm-4">
+				<img src="images/icons/backend.png">
+				<h3>Web design &amp; development</h3>
+				<p>We make sure the design is transformed into an operational code at the pixel level. We develop strictly in accordance with current standards and make it responsive!.</p>
+			</div>
+	
+		<!-- Blocks -->
+		
+			<div class="block col-xs-12 col-sm-4">
+				<img src="images/icons/algorithms.png">
+				<h3>3d Modeling</h3>
+				<p>The visual presentation of your product has a wide impact on your users. Although a product's Information Architecture is important, it doesn't facilitate engagement on its own.</p>
+			</div>
+
+			<div class="block col-xs-12 col-sm-4">	
+				<img src="images/icons/mobile_app.png">
+				<h3>Mobile App Development</h3>
+				<p>We always believe in giving life to engaging apps that are fast, secure and adaptive. And which will make profit for you!</p>
+			</div>
+
+			<div class="block col-xs-12 col-sm-4">	
+				<img src="images/icons/more.png">
+				<h3>Digital Marketing</h3>
+				<p>The story doesn't end here. We also make a rocket launcher for your brand. From cities to provinces and from there, entire in the world!</p>
+			</div>
+
+			<div class="block col-xs-12 col-sm-4">	
+				<img src="images/icons/analytics.png">
+				<h3>Digital CV</h3>
+				<p>We just don't help you to grow, but to also to be digitalized. Now, share your profiles globally with the help of some clicks!(and some pride too)</p>
+			</div>
+
+			
+
+
+
+		</div>
+
+	</section></section>
+
+
+
+
+
+<!-- TEAM -->
+
+<section id="team" class="full padded-top center" style="background-image: url(images/background_01.jpg);">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+					<h3>Team</h3>
+					<span class="line"></span>
+					<h2>Meet our Crew!</h2><br>
+			</div>
+
+		</div>
+
+
+
+
+<div class="col-md-2 hidden-xs">
+				<div class="team-wrapper">
+					<img src="images/team7.png" class="img-responsive" alt="team img">
+						
+							<h3><b>Akshay Shah</b></h3>
+							<div class="light">
+							<h4>Designer</h4>
+						</div>
+				</div>
+			</div>
+
+
+			<div class="col-md-2 hidden-xs">
+				<div class="team-wrapper">
+					<img src="images/team5.png" class="img-responsive" alt="team img">
+						
+							<h3><b>Parth Nayak</b></h3>
+							<div class="light">
+							<h4>iOS Developer</h4>
+							
+						</div>
+				</div>
+			</div>
+<div class="col-sm-2 col-xs-12">
+				<div class="team-wrapper">
+					<img src="images/team1.png" class="img-responsive" alt="team img">
+						<h3><b>Bhavik Goyani</b></h3>
+							<div class="light">
+								<h4>C.E.O / Founder</h4>
+							</div>
+				</div>
+			</div>
+
+
+<div class="col-xs-12 col-sm-2">
+				<div class="team-wrapper">
+					<img src="images/team2.png" class="img-responsive" alt="team img">
+							<h3><b>Jatan Gohel</b></h3>
+							<div class="light">
+							<h4>Co-Founder / Technical Director</h4>
+							</div>
+						</div>
+			</div>
+
+
+			
+
+			<div class="col-md-2 hidden-xs">
+				<div class="team-wrapper">
+					<img src="images/team3.png" class="img-responsive" alt="team img">
+						
+							<h3><b>Aakash Shah</b></h3>
+							<div class="light">
+							<h4>Android Developer</h4>
+								</div>
+				</div>
+			</div>
+
+
+
+			
+
+
+
+			<div class="col-md-2 hidden-xs">
+				<div class="team-wrapper">
+					<img src="images/team6.png" class="img-responsive" alt="team img">
+						
+							<h3><b>Abhinav Singh</b></h3>
+							<div class="light">
+							<h4>Web Developer</h4>
+							
+						</div>
+				</div>
+			</div>
+
+
+			
+
+
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<!-- WORK -->
+
+
+	<section id="work" class="full padded-top center dark" style="background-image: url(images/dark-image.jpg);">
+		<div class="container">
+
+			<!-- Intro -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+					<h3>Work</h3>
+					<span class="line"></span>
+					<h2>It’s not a job, It’s a life.</h2>
+					<p>We create experiences that transform brands &amp; grow businesses.</p>
+				</div>
+			</div>
+
+			<!-- Folio pt.1 -->
+			<div class="row">
+				<div class="col-xs-12 padded-top">
+					<ul class="folio-list">
+						<li><a class ="lightbox" href="images/portfolio/project1.jpg" title="Company Portfolio website"><img src="images/portfolio/project1.jpg" alt="Website Portfolio"></a></li>
+						<li><a class ="lightbox" href="images/portfolio/project2.jpg" title="Responsive Marketing Websites"><img src="images/portfolio/project2.jpg" alt="Website Portfolio"></a></li>
+						<li><a class ="lightbox" href="images/portfolio/project4.jpg" title="E-Commerce Websites"><img src="images/portfolio/project4.jpg" alt="Website Portfolio"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+	<section id = "connect" class="container padded center">
+
+		<!-- Subscribe -->
+		<div class="row">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+				<h3>contact</h3>
+				<span class="line"></span>
+				<p>Would you like our remarkable team to work for you?</p>
+
+				<form id="contact" name="contact" method="post" novalidate="novalidate">
+				<fieldset>
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+					<label for="email">Email</label>
+			        <input type="email" name="email" id="email" />
+			        <label for="message">Message</label>
+			        <textarea name="message" id="message"></textarea>
+			        <input id="submit" type="submit" name="submit" value="Send Email">
+				</fieldset>
+			</form>
+
+			<div id="success">
+				<p>Your message was sent successfully! I will be in touch as soon as I can.</p>
+			</div>
+
+			<div id="error">
+				<p>Something went wrong, try refreshing and submitting the form again.</p>
+			</div>
+			</div>
+		</div>
+
+		
+				</form>
+			</section>
+			<section class="full padded-bottom center" style="background-image: url(images/background_footer.jpg);">
+			
+				<ul class="social-icon">
+					<li><a href="https://www.facebook.com/webmountstudio" target="-blank" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
+					<!--<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
+					<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
+					<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.9s"></a></li>
+					<li><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="0.9s"></a></li> -->
+				</ul>
+				<p class="copyright">Contact Us - <a href="tel:+15148363690" class="copyright">+1 (514) 836-3690</a></p>
+				<p class="copyright">© 2018 Web Mount Studio. All rights reserved.<br>We make something you love.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Begin Pageloader -->
+	<div id="pageloader">
+		<!-- Content -->
+		<div class="pageloader-content">
+			<h4>Loading...</h4>
+			<span class="progress"></span>
+		</div><!-- END Content -->
+	</div><!-- END Pageloader -->
+
+	<!-- Javascript -->
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/loader.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

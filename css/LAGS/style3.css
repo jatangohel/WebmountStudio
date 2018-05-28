@@ -1,0 +1,148 @@
+#container {
+
+    margin: auto 0;
+}
+
+
+
+
+
+/* ==========================================================================
+navigation section
+========================================================================== */
+.custom-navbar {
+	
+    margin-bottom: 0;
+    background: #95daf9;
+
+}
+.custom-navbar .navbar-brand  {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+}
+.custom-navbar .navbar-brand .navbar-toggle {
+    background: #ffffff;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+    }
+.custom-navbar .nav li a {
+    color: #005a88;
+    font-size: 14px;
+    font-weight: 512;
+    }
+.custom-navbar .nav li a:hover {
+  	background: transparent;
+   color: #eeeeee;
+}
+.custom-navbar .nav > li > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+}
+.custom-navbar .nav li.active > a {
+      color: #ffffff;
+    }
+.custom-navbar .navbar-toggle {
+        border: none;
+        padding-top: 10px;
+    }
+.custom-navbar .navbar-toggle .icon-bar {
+        background: #ffffff;
+        border-color: transparent;
+    }
+@media(min-width:768px){
+    .custom-navbar {
+            background: #95daf9;
+            padding: 10px;
+            border-bottom: 0;
+            background: 0 0;
+         }
+    .custom-navbar.top-nav-collapse {
+            padding: 8px;
+            background: #95daf9;
+        }
+}
+
+
+/* ==========================================================================
+about section
+========================================================================== */
+#about {
+  background: #3B3B3B;
+  color: #ffffff;
+}
+.nav-tabs {
+  margin-top: 20px;
+  border-bottom: 1px solid #606060;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+	display: block;
+  	color: #ffffff;
+  	font-size: 16px;
+  	padding: 10px 20px;
+  	border: 0;
+  	border-radius: 0;
+}
+.nav-tabs > li > a:hover {
+  background-color: transparent;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #ff3838;
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: transparent;
+}
+.tab-content {
+  padding-top: 20px;
+}
+
+.tab-content a {
+	color: #0CC;
+}
+
+.tab-content a:hover, .tab-content a:link {
+	color: #FF0;
+	text-decoration: none;
+}
+
+/* ==========================================================================
+team section
+========================================================================== */
+
+
+
+
+
+@media screen and (min-width: 992px) {
+  @-moz-document url-prefix() {
+    #portfolio .col-lg-4,
+    #portfolio .col-md-4 {
+      width: 33.333%;
+    }
+  }    
+}
+
+/* ==========================================================================
+media quires for mobile
+========================================================================== */
+@media (max-width: 460px) {
+  #home {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #home h1 {
+    font-size: 22px;
+  }
+  #home h3 {
+    font-size: 12px;
+  }
+}
